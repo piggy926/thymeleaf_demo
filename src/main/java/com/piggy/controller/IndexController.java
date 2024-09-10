@@ -16,6 +16,9 @@ public class IndexController {
         return "index";
     }
 
+    /**
+     * 添加变量msg到页面，thymeleaf进行渲染
+     */
     @RequestMapping("/hello")
     public ModelAndView hello() {
         // 创建ModelAndView对象, 指定页面名称
