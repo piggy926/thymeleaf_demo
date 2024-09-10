@@ -32,8 +32,9 @@ public class IndexController {
     }
 
     /**
-     * 请求
-     * http://localhost:8081/showParam?urlParam=123456
+     * 测试请求http://localhost:8081/showParam?urlParam=123456
+     *
+     * 注解@RequestParam用于接收url参数，如果url参数名称与方法参数名称相同，则可以不写value属性
      */
     @RequestMapping("/showParam")
     public ModelAndView showParam(@RequestParam String urlParam) {
