@@ -1,0 +1,11 @@
+server:
+  # 服务端口
+  port: 8081
+  # 服务根路径
+  servlet:
+    context-path: /
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
